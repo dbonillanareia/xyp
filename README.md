@@ -41,6 +41,7 @@ A continuación se describe la agenda para las sesiones XYP.
 - Frameworks mvvm
 - Tarea
 	- Modificar XYP03 para usar MVVM
+	- Averiguar otra forma de definir el viewmodel.
 
 ## XYP05 - Storage
 - SQLite
