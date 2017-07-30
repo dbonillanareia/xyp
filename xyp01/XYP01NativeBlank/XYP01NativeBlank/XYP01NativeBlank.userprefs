@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{10CFA560-B348-4AD2-BCEB-AC405B8119C1}|Default">
+  <MonoDevelop.Ide.ItemProperties.XYP01NativeBlank.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XYP01NativeBlank" expanded="True" selected="True">
+            <Node name="XYP01NativeBlank" expanded="True" />
+            <Node name="XYP01NativeBlank.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Diego/Projects/Practia/XYP01/XYP01NativeBlank/XYP01NativeBlank/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="42" column="1" />
+      <Breakpoint file="/Users/Diego/Projects/Practia/XYP01/XYP01NativeBlank/XYP01NativeBlank/iOS/AppDelegate.cs" relfile="iOS/AppDelegate.cs" line="24" column="1" />
+      <Breakpoint file="/Users/Diego/Projects/Practia/XYP01/XYP01NativeBlank/XYP01NativeBlank/iOS/Main.cs" relfile="iOS/Main.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XYP01NativeBlank.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE88CB50-679B-4C6E-9F74-D180069E1B27" />
+</Properties>
