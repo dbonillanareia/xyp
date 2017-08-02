@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="xyp04.xyp04Page">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <Color x:Key="bgColor">#F2CD33</Color>
+            <Color x:Key="fgColor">#083366</Color>
+        </ResourceDictionary>
+    </Page.Resources>
+    
+    <Grid x:Name ="LayoutRoot" BackgroundColor="{DynamicResource bgColor}" Padding="10">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"  />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"    />
+        </Grid.RowDefinitions>
+
+        <!-- Left column = static labels -->
+        <Label Text="Moneda" TextColor="{DynamicResource fgColor}" Style="{StaticResource infoLabelStyle}" Grid.Row="0" Grid.Column="0" />
+        <Label Text="Importe"  TextColor="{DynamicResource fgColor}" Style="{StaticResource infoLabelStyle}" Grid.Row="1" Grid.Column="0" />
+        <Label Text="IVA"   TextColor="{DynamicResource fgColor}" Style="{StaticResource infoLabelStyle}" Grid.Row="2" Grid.Column="0" />
+        <Label Text="Total" TextColor="{DynamicResource fgColor}" Style="{StaticResource infoLabelStyle}" Grid.Row="3" Grid.Column="0" />
+
+        <!-- Right column = user input and calculated-value output -->
+        <Picker x:Name="IndustryTypePicker1" SelectedIndex="{Binding Industry}" TextColor="{DynamicResource fgColor}" HorizontalOptions="FillAndExpand" Grid.Row="0" Grid.Column="1">
+            <Picker.Items>
+                <x:String>$</x:String> 
+                <x:String>USD</x:String>
+            </Picker.Items>
+        </Picker>
+        <!--<Pi TextColor="{DynamicResource fgColor}" Style="{StaticResource baseLabelStyle}" Grid.Row="0" Grid.Column="1" />-->
+        <Entry Text="{Binding Amount}" Placeholder="Enter Amount" Keyboard="Numeric" TextColor="Gray" Grid.Row="1" Grid.Column="1" />
+        <Label Text="{Binding Tax}" TextColor="{DynamicResource fgColor}" Style="{StaticResource baseLabelStyle}" Grid.Row="2" Grid.Column="1" />
+        <Label Text="{Binding Total}" TextColor="{DynamicResource fgColor}" Style="{StaticResource baseLabelStyle}" Grid.Row="3" Grid.Column="1" />
+
+        <!-- Swap the foreground/background colors of this page -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Spacing="100" Grid.Row="4" Grid.ColumnSpan="2">
+            <Button Command="{Binding LightCommand}" Text="Light" TextColor="Gray" Grid.Column="0" />
+            <Button Command="{Binding DarkCommand}" Text="Dark"  TextColor="Gray" Grid.Column="1" />
+        </StackLayout>
+
+    </Grid>
+    
+</ContentPage>

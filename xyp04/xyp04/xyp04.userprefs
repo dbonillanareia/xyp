@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{CB927815-608D-4E15-9531-4D934E7B1830}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xyp04Page.xaml">
+    <Files>
+      <File FileName="xyp04Page.xaml" Line="56" Column="1" />
+      <File FileName="xyp04ViewModel.cs" Line="53" Column="6" />
+      <File FileName="xyp04Page.xaml.cs" Line="1" Column="1" />
+      <File FileName="App.xaml" Line="19" Column="1" />
+      <File FileName="App.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.xyp04.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.28372171-4C1B-4FFC-89ED-507690CBD6EB" />
+</Properties>
