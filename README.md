@@ -51,6 +51,10 @@ A continuación se describe la agenda para las sesiones XYP.
 	- Construir una aplicación que haga uso de cada tipo de storage
 
 ## XF06 – Custom Renderers & Effects
+- Custom Renderers
+- Effects
+- Tarea
+	- Agregar un effect y un custom renderer a controles en una aplicación ya existente.
 ## XF07 – Construcción de una aplicación completa (parte1)
 ## XF08 – Construcción de una aplicación completa (parte2)
 ## XF09 – Testing y Deploy
