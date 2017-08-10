@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{FCB92183-CC18-4C36-8D7F-D88AF14F3276}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XFDraw/XFDraw.Shared/MainPage.xaml.cs">
+    <Files>
+      <File FileName="XFDraw/XFDraw.Shared/MainPage.xaml" Line="10" Column="15" />
+      <File FileName="XFDraw/XFDraw.Shared/MainPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XFDraw.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.28372171-4C1B-4FFC-89ED-507690CBD6EB" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.XFDraw.Droid PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+  <MonoDevelop.Ide.ItemProperties.XFDraw.Droid PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
 </Properties>
