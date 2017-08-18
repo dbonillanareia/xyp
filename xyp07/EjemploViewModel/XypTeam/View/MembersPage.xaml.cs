@@ -8,6 +8,7 @@ using XypTeam.ViewModel;
 namespace XypTeam.View
 {
     public class BasePage : ViewPage<MemberViewModel> { }
+
 	public partial class MembersPage : BasePage
 	{
 		public MembersPage()

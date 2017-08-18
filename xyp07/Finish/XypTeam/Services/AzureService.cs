@@ -47,7 +47,7 @@ namespace XypTeam.Services
 			table = Client.GetSyncTable<Member>();
 		}
 
-		public async Task<IEnumerable<Member>> GetSpeakers()
+		public async Task<IEnumerable<Member>> GetMembers()
 		{
 			await Initialize();
 			await SyncMembers();

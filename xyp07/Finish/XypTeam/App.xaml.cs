@@ -10,7 +10,8 @@ namespace XypTeam
             InitializeComponent();
 
 			var content = new MembersPage();
-            MainPage = content;
+
+			MainPage = new NavigationPage(content);
         }
 
         protected override void OnStart()

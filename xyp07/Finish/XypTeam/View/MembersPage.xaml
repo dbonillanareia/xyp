@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms" 
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                xmlns:local="clr-namespace:XypTeam.ViewModel"
+                x:Class="XypTeam.View.MembersPage"
+                Title="Equipo XYP - Los gurúes">
+
+    <ContentPage.BindingContext>
+        <local:MemberViewModel/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout Spacing="0">
+
+        <Button Text="Sincronizar equipo" Command="{Binding GetMembersCommand}"/>
+        
+        <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
+
+        <ListView x:Name="ListViewMembers" ItemsSource="{Binding Members}" SelectedItem="{Binding SelectedMember, Mode=TwoWay}">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ImageCell Text="{Binding Name}"
+                         Detail="{Binding Title}"
+                         ImageSource="{Binding Avatar}"/>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+	
+</ContentPage>

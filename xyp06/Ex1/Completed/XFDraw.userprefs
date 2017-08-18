@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{FCB92183-CC18-4C36-8D7F-D88AF14F3276}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="XFDraw/XFDraw.Shared/MainPage.xaml.cs">
     <Files>
-      <File FileName="XFDraw/XFDraw.Shared/MainPage.xaml" Line="7" Column="21" />
+      <File FileName="XFDraw/XFDraw.Shared/MainPage.xaml" Line="10" Column="15" />
       <File FileName="XFDraw/XFDraw.Shared/MainPage.xaml.cs" Line="37" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
