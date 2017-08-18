@@ -1,5 +1,3 @@
-# XYP07
-
 # xyp08
 
  - Qué se puede compartir?
