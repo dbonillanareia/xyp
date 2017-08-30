@@ -56,6 +56,8 @@ A continuación se describe la agenda para las sesiones XYP.
 - Tarea
 	- Agregar un effect y un custom renderer a controles en una aplicación ya existente.
 ## XF07 – Construcción de una aplicación completa (parte1)
+Ver xyp07/README.md
 ## XF08 – Construcción de una aplicación completa (parte2)
+Ver xyp08/README.md
 ## XF09 – Testing y Deploy
-
+Ver xyp09/README.md
